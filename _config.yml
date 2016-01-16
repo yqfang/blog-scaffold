@@ -59,7 +59,7 @@ time_format: HH:mm:ss
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-avatar: /uploads/avatar.jpg
+avatar: /uploads/profile.jpg
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -86,7 +86,8 @@ duoshuo_hotartical: true
 social:
   Github: https://github.com/yqfang
   Twitter: https://twitter.com/yqfang
-  Weibo: http://weibo.com/
+  Weibo: http://weibo.com/evergreenfang
+  Zhihu: https://www.zhihu.com/people/yong-qing-64
   # 等等
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -95,9 +96,4 @@ deploy:
   repo: git@github.com:yqfang/yqfang.github.io.git
   branch: master
   message: 
-
-# Schemes
-#scheme: Muse
-#scheme: Mist
-scheme: Pisces
 
