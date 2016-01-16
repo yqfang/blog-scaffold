@@ -41,3 +41,6 @@ public
 .node_repl_history
 
 .idea
+
+.deploy_git
+themes
