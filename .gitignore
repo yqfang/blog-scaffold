@@ -6,6 +6,8 @@
 logs
 *.log
 npm-debug.log*
+debug.log
+db.json
 
 # Runtime data
 pids
@@ -38,3 +40,4 @@ public
 # Optional REPL history
 .node_repl_history
 
+.idea

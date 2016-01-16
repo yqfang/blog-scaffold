@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: bibi76
+subtitle: 一只大老虎
+description: 不装逼会死星人
+author: bibi76
+language: zh-Hans
 timezone:
 
 # URL
@@ -60,11 +60,28 @@ time_format: HH:mm:ss
 per_page: 10
 pagination_dir: page
 
+# 首页显示文章摘录
+auto_excerpt:
+  enable: true
+  length: 50
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
+duoshuo_shortname: yqfang
+baidu_analytics: 6da889839e8767df86b1b73713b231bb
+since: 2013
+jiathis: true
+duoshuo_hotartical: true
+
+
+# Social links
+social:
+  Github: https://github.com/yqfang
+  Twitter: https://twitter.com/yqfang
+  Weibo: http://weibo.com/
+  # 等等
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
