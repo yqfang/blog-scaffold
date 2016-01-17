@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: bibi76
+title: 宇卿的博客
 subtitle: Continuous build ...
-description: 不装逼会死星人
-author: bibi76
+description: 持续学习，用心生活
+author: yqfang
 language: zh-Hans
 timezone:
 
@@ -66,10 +66,6 @@ avatar: /uploads/profile.jpg
 per_page: 10
 pagination_dir: page
 
-# 首页显示文章摘录
-auto_excerpt:
-  enable: true
-  length: 50
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -77,9 +73,26 @@ theme: next
 
 duoshuo_shortname: yqfang
 baidu_analytics: 6da889839e8767df86b1b73713b231bb
+google_analytics: UA-72522722-1
+google-site-verification: googled650f9408faa0c09.html
 since: 2013
-jiathis: true
-duoshuo_hotartical: true
+
+
+
+# 设定归档页面文章的篇数
+index_generator:
+  per_page: 5
+
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: true
+
+tag_generator:
+  per_page: 10
+
+# Swiftype Search Key
+swiftype_key: v3ziusJ2UTj9LXzT-FsP
 
 
 # Social links
@@ -88,7 +101,16 @@ social:
   Twitter: https://twitter.com/evergreenfang
   Weibo: http://weibo.com/evergreenfang
   Zhihu: https://www.zhihu.com/people/yong-qing-64
-  # 等等
+
+# title, chinese available
+links_title: 友情链接
+# links
+links:
+  阮一峰: http://www.ruanyifeng.com/blog/
+  夏末: http://notes.xiamo.tk/
+  Moxfive: http://moxfive.xyz/
+  IIssNan: http://notes.iissnan.com/
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
