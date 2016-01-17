@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 宇卿的博客
+title: 宇卿的网络日志
 subtitle: Continuous build ...
-description: 持续学习，用心生活
+description: 持续构建、不断迭代
 author: yqfang
 language: zh-Hans
 timezone:
@@ -59,7 +59,7 @@ time_format: HH:mm:ss
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
 # default : /images/default_avatar.jpg
-avatar: /uploads/profile.jpg
+avatar: /uploads/profile.png
 
 # Pagination
 ## Set per_page to 0 to disable pagination
